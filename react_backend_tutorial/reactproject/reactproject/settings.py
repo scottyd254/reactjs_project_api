@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -85,7 +85,9 @@ DATABASES = {
     }
 }
 
+DATABASES['default'] = dj_database_url.parse('postgres://avnadmin:AVNS_Aml3XM_JPpQ7t72_yGx@pg-react-project-app-zealousegg-8193.i.aivencloud.com:25293/defaultdb?sslmode=require')
 
+# Postgres: postgres://avnadmin:AVNS_Aml3XM_JPpQ7t72_yGx@pg-react-project-app-zealousegg-8193.i.aivencloud.com:25293/defaultdb?sslmode=require
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
