@@ -1,0 +1,40 @@
+# Node.js dependencies
+react_frontend_tutorial/node_modules
+
+# Compiled files
+react_frontend_tutorial/build
+react_frontend_tutorial/dist
+
+# .ipynb files 
+*.ipynb
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# python .venv folder
+react_backend_tutorial/.venv
+
+# pycache folder
+react_backend_tutorial/__pycache__/
+
