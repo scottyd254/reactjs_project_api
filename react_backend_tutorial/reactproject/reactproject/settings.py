@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-import dj_database_url
 import os  
 from dotenv import load_dotenv
 
@@ -89,7 +88,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse('postgres://avnadmin:AVNS_Aml3XM_JPpQ7t72_yGx@pg-react-project-app-zealousegg-8193.i.aivencloud.com:25293/defaultdb?sslmode=require')
+# DATABASES['default'] = dj_database_url.parse('postgres://avnadmin:AVNS_Aml3XM_JPpQ7t72_yGx@pg-react-project-app-zealousegg-8193.i.aivencloud.com:25293/defaultdb?sslmode=require')
 
 # Postgres: postgres://avnadmin:AVNS_Aml3XM_JPpQ7t72_yGx@pg-react-project-app-zealousegg-8193.i.aivencloud.com:25293/defaultdb?sslmode=require
 # Password validation
