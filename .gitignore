@@ -1,9 +1,8 @@
 # Node.js dependencies
 react_frontend_tutorial/node_modules
 
-# Compiled files
-react_frontend_tutorial/build
-react_frontend_tutorial/dist
+
+
 
 # .ipynb files 
 *.ipynb
